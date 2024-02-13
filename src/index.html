@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-images-1.medium.com/max/280/1*1eI1MVvq9I4B3kGpt2JQyw@2x.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Age calculator app</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://cdn-images-1.medium.com/max/280/1*1eI1MVvq9I4B3kGpt2JQyw@2x.png"
+        />
+        <link rel="stylesheet" href="style.css" />
 
-  <main class="container" role="main">
-    <div class="content">
-  
-      <div class="input">
+        <title>Frontend Mentor | Age calculator app</title>
+    </head>
+    <body>
+        <main class="container" role="main">
+            <div class="content">
+                <div class="input">
+                    <div>
+                        <h6>Day</h6>
+                        <input type="text" placeholder="DD" id="dayIn" />
+                        <p class="error"></p>
+                    </div>
 
-        <div>
-          <h6>Day</h6>
-          <input type="text" placeholder="DD" id="dayIn">
-          <p class="error"></p>
-        </div>
-    
-        <div>
-          <h6>Month</h6>
-          <input type="text" placeholder="MM" id="monthIn">
-          <p class="error"></p>
-        </div>
-     
-        <div>
-          <h6>Year</h6>
-          <input type="text" placeholder="YYYY" id="yearIn">
-          <p class="error"></p>
-        </div>
-      </div>
-    
-      <hr>
-      <button id="calculateBtn" class="flex items-center justify-center">
-        <img src="https://raw.githubusercontent.com/Irwing-Dev/age-calculator-app/main/assets/images/icon-arrow.svg" alt="">
-      </button>
+                    <div>
+                        <h6>Month</h6>
+                        <input type="text" placeholder="MM" id="monthIn" />
+                        <p class="error"></p>
+                    </div>
 
-   
-      <div class="result">
-        <h1><span id="yearOut">--</span> years</h1>
-        <h1><span id="monthOut">--</span> months</h1>
-        <h1><span id="dayOut">--</span> days</h1>
+                    <div>
+                        <h6>Year</h6>
+                        <input type="text" placeholder="YYYY" id="yearIn" />
+                        <p class="error"></p>
+                    </div>
+                </div>
 
-      </div>
-    </div>
-  </main>
+                <hr />
+                <button
+                    id="calculateBtn"
+                    class="flex items-center justify-center"
+                >
+                    <img src="../assets/images/icon-arrow.svg" alt="" />
+                </button>
 
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Irwing-Dev">IrwingDev</a>.
-  </footer>
+                <div class="result">
+                    <h1><span id="yearOut">--</span> years</h1>
+                    <h1><span id="monthOut">--</span> months</h1>
+                    <h1><span id="dayOut">--</span> days</h1>
+                </div>
+            </div>
+        </main>
 
+        <footer class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="https://github.com/Irwing-Dev">IrwingDev</a>.
+        </footer>
 
-  <script src="main.js"></script>
-</body>
+        <script src="main.js"></script>
+    </body>
 </html>
